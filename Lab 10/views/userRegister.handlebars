@@ -1,0 +1,19 @@
+<h1>{{heading}}</h1>
+
+<main>
+  <form action="/register" method="post" id="registration-form">
+    <label for="usernameInput">Username: </label>
+    <input name = "usernameInput" id="usernameInput" placeholder="Enter here...">
+    <br>
+    <label for="passwordInput">Password: </label>
+    <input name = "passwordInput" id="passwordInput" type="password" placeholder="Enter here...">
+    <br>
+    <button id="submit-id" type="submit">Submit</button>
+  </form>
+  {{#if hasError}}
+    <p>{{error}}</p>
+  {{/if}}
+  <div class="links">
+  <a href="/">Already have an account? Click here to log-in</a>
+  </div>
+</main>

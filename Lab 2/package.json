@@ -1,0 +1,12 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "This is Lab 2 of Web Programming",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gundeep Singh Saluja 20005427",
+  "license": "ISC"
+}

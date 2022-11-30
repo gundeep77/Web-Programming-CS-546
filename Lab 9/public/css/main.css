@@ -1,0 +1,83 @@
+h1 {
+  color: bisque;
+}
+
+#formLabel {
+  color: darkslateblue;
+  font-weight: 700;
+}
+
+#inputArrays {
+  width: 250px;
+  height: 18px;
+}
+
+#error {
+  color: gold;
+  font-weight: 700;
+}
+
+button {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 2px;
+  padding-top: 0px;
+  font-family: "Comic Sans MS";
+  font-weight: 700;
+}
+
+body {
+  background-color: grey;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Comic Sans MS";
+}
+
+footer {
+  text-align: center;
+  margin-top: 400px;
+  color: lightsalmon;
+  font-size: 22px;
+  font-weight: 600;
+  position: fixed;
+  left: 10px;
+  top: 200px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+  padding: 5px;
+}
+
+#resultLabel {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  /* top: 225px; */
+  /* left: 810px; */
+}
+
+.is-green {
+  padding-top: 15px;
+  color: #00e676;
+  font-weight: 700;
+  list-style: disc;
+  text-align: center;
+}
+
+.is-red {
+  padding-top: 15px;
+  color: #ff3d00;
+  font-weight: 700;
+  list-style: disc;
+  text-align: center;
+}
+
+#results {
+  display: inline-block;
+}

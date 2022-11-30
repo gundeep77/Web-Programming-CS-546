@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-9",
+  "version": "1.0.0",
+  "description": "This is lab 9 for the course CS 546",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gundeep Singh Saluja 20005427",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

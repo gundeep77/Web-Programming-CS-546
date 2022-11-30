@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mongodb": "^4.12.1"
+  },
+  "name": "cs-546-lab-10",
+  "version": "1.0.0",
+  "description": "This is lab 10 for the course CS 546",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gundeep Singh Saluja 20005427",
+  "license": "ISC"
+}
